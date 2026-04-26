@@ -33,5 +33,5 @@ L'étude de stabilité temporelle (score ARI) démontre une chute de la pertinen
 ## Installation & Exécution
 1. Cloner ce dépôt : `git clone https://github.com/sam974/p5-customer-segmentation.git`
 2. Les données initiales (base SQLite) doivent être placées dans le dossier d'input approprié (non incluses dans ce dépôt par souci de confidentialité).
-3. Installer les dépendances : `pip install -r requirements.txt` *(si tu as généré ce fichier, sinon tu peux supprimer cette ligne)*
+3. Installer les dépendances
 4. Exécuter les notebooks dans l'ordre (Exploration > Essais > Simulation).
