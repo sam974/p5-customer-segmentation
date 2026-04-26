@@ -28,4 +28,10 @@ Le projet est divisé en 4 parties distinctes, respectant la convention PEP8 :
 
 ## Résultats Principaux
 L'algorithme K-Means a permis de dégager **5 segments clients distincts** avec une excellente compacité et séparation. Ces segments ont été traduits en profils marketing via des graphiques en radar.
-L'étude de stabilité temporelle (score ARI) démontre une chute de la pertinence des segments initiaux sous le seuil d'acceptabilité après **4 mois**, déclenchant ainsi le besoin d
+L'étude de stabilité temporelle (score ARI) démontre une chute de la pertinence des segments initiaux sous le seuil d'acceptabilité après **1 mois**, déclenchant ainsi le besoin d'un ré-entraînement automatisé.
+
+## Installation & Exécution
+1. Cloner ce dépôt : `git clone https://github.com/sam974/p5-customer-segmentation.git`
+2. Les données initiales (base SQLite) doivent être placées dans le dossier d'input approprié (non incluses dans ce dépôt par souci de confidentialité).
+3. Installer les dépendances : `pip install -r requirements.txt` *(si tu as généré ce fichier, sinon tu peux supprimer cette ligne)*
+4. Exécuter les notebooks dans l'ordre (Exploration > Essais > Simulation).
